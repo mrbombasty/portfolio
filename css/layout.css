@@ -1,7 +1,7 @@
 
 
 .logo{
-	width: 120px;
+	width: 140px;
 	padding-bottom: 0px;
 	/*padding-top: 270px;*/
 }
@@ -29,13 +29,18 @@ h1{
 }
 
 .cover-container{
-	height: 100vh;
+	height: 90vh;
+	display: table;
 }
 
 .inner{
-	position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+	text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container{
+	text-align: center;
 }
 
 
@@ -83,20 +88,45 @@ h1{
 
 }
 
-.mastfoot{
+
+
+canvas{
+	display:block;
+	vertical-align:bottom;
+}
+
+#particles-js{
+  position: fixed;
+	opacity: .1;
+	width: 100%;
+		height: 100%;
+	overflow: hidden;
+	z-index: -1;
+	
+ 
+}
+
+
+.contact{
 	text-align: center;
 	margin: 0 auto;
 	padding-bottom: 10px;
+	/*background: rgba(255,50,101,1);*/
+	background: #f7f7f7;
+	min-height: 500px;
+
 }
 
-body{
-	background: #282c30;
-
-}
 
 .bottom{
-	 background: rgba(255,255,255,.93);
-	padding-top: 100px;
+	 background: rgba(255,255,255,.98);
+	padding-top: 150px;
+	padding-bottom: 150px;
+	min-height: 500px;
+}
+
+.project{
+	width: 30%;
 }
 
 @media only screen and (max-width: 560px){
@@ -104,6 +134,25 @@ body{
 		height: 100%;
 		width: auto;
 		left: -60%;
+		top: 0;
+	}
+	.cover-container{
+		margin: 0;
+	}
+
+	.container{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.bottom{
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+
+	.project{
+		width:100%;
+		padding-bottom: 30px;
 	}
 }
 
