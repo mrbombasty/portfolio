@@ -40,7 +40,7 @@ h1{
 }
 
 .container{
-	text-align: center;
+	
 }
 
 
@@ -120,13 +120,14 @@ canvas{
 
 .bottom{
 	 background: rgba(255,255,255,.98);
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	min-height: 500px;
 }
 
 .project{
-	width: 30%;
+	width: 33%;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 560px){
@@ -153,6 +154,14 @@ canvas{
 	.project{
 		width:100%;
 		padding-bottom: 30px;
+	}
+
+	p{
+		font-weight: 300;
+	}
+
+	#particles-js{
+		
 	}
 }
 
