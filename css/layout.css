@@ -1,7 +1,7 @@
 
 
 .logo{
-	width: 140px;
+	width: 150px;
 	padding-bottom: 0px;
 	/*padding-top: 270px;*/
 }
@@ -13,30 +13,32 @@
 }
 
 #tagline{
-	font-size: 16px;
+	font-size: 14px;
 	margin-top: -15px;
 	color: rgba(255,255,255,1);
 	letter-spacing: 2px;
 }
 
 h1{
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 200;
 
 }
+
+
 
 .cover{
 	text-align: center;
 }
 
 .cover-container{
-	height: 90vh;
+	height: 100vh;
 	display: table;
 }
 
 .container{
-	 margin-left: 10%;
-    margin-right: 10%;
+	 margin-left: 13%;
+    margin-right: 13%;
 }
 
 .inner{
@@ -96,6 +98,7 @@ h1{
 
 
 
+
 canvas{
 	display:block;
 	vertical-align:bottom;
@@ -103,7 +106,7 @@ canvas{
 
 #particles-js{
   position: fixed;
-	opacity: .1;
+	opacity: .15;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
@@ -114,30 +117,12 @@ canvas{
 }
 
 
-.contact{
-	
-	margin: 0 auto;
-	padding-bottom: 10px;
-	/*background: rgba(255,50,101,1);*/
-	background: #f7f7f7;
-	min-height: 500px;
-
-}
-
-#contact_form{
-	display: inline-block;
-	width: 80%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	
-	margin-left: 10%;
-	margin-right: 10%;
-	line-height: 3;
-	color: rgba(0,0,0,.6);
-}
-
 .input{
 	width: 100%;
+	border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+  border-radius: 2px;
 }
 
 label{
@@ -150,40 +135,72 @@ textarea{
 	resize: none;
 }
 
+#submit_button{
+	width: 30%;
+	margin-left: 35%;
+
+}
+
+.title{
+	text-align: center;
+	color: rgba(0,0,0,.5);
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+	margin-top: 0;
+}
+
 
 .bottom{
-	 background: rgba(255,255,255,.98);
-	padding-top: 100px;
-	padding-bottom: 100px;
-	min-height: 500px;
+	 background: rgba(255,255,255,1);
+	padding-top: 120px;
+	padding-bottom: 120px;
+	
+}
+
+.centeredCircle{
+	margin: 0 auto;
+	width: 80px;
+	display: block;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 .bottom h1{
-	margin: 10px;
-	color: rgba(0,0,0,.7);
-	font-size: 20px;
-	padding-bottom: 90px;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: rgba(0,0,0,.5);
+	font-size: 18px;
+	
 	text-align: center;
+
 }
 
-.projectContainer{
+/*.projectContainer{
 	width: 31%;
 	height: auto;
 	margin: 10px;
 	display: inline-block;
 	position: relative;
-}
+}*/
+
+
 
 .project{
 	width: 100%;
 	height: 100%;
+
+
 }
 
+
+
 .info{
-	background: #ff3265;
+	background: #000;
 	position: absolute;
 	top: 0;
-	
+	width: 100%;
+	height: 100%;
 	-webkit-opacity: 0;
   	-moz-opacity: 0;
  	 opacity: 0;
@@ -196,20 +213,86 @@ textarea{
 }
 
 .info:hover{
-	-webkit-opacity: .9;
-  	-moz-opacity: .9;
-  	opacity: .9;
-
-
+	-webkit-opacity: .8;
+  	-moz-opacity: .8;
+  	opacity: .8;
+  	cursor: pointer;
 }
 
 .info p{
+	margin: 0;
+	font-size: 12px;
+	color: rgba(255,255,255,.98);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.info h1{
+	margin: 0;
+	font-size: 22px;
+	color: rgba(255,255,255,.98);
+}
+
+
+.infoText{
 	text-align: center;
     position: absolute;
-    top: 46%;
+    top: 35%;
     margin: 0;
-    font-size: 23px;
+    font-weight: 200;
 	width: 100%;
+	
+}
+
+.contact{
+	
+	margin: 0 auto;
+	padding-bottom: 10px;
+	/*background: rgba(255,50,101,1);*/
+	/*background: #f7f7f7;*/
+	background: #fff;
+	min-height: 500px;
+
+}
+
+#contact_form{
+	display: inline-block;
+	width: 80%;
+	
+	padding-bottom: 100px;
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 3;
+	color: rgba(0,0,0,.6);
+}
+
+.greyBack{
+	
+	background: #fcfcfc!important;
+}
+
+.achievement{
+	  -webkit-filter: grayscale(100%); 
+	  filter: grayscale(100%);
+	  opacity:.5;
+	  -webkit-transition: all .3s ease;
+	  -moz-transition: all .3s ease;
+	  -ms-transition: all .3s ease;
+	  -o-transition: all .3s ease;
+	  transition: all .3s ease;
+}
+
+.achievement:hover{
+	  -webkit-filter: grayscale(0%); 
+	  filter: grayscale(0%);
+	  opacity:1;
+}
+
+.achievement-text{
+	color: rgba(0,0,0,.5);
+	
+	
 }
 
 @media only screen and (max-width: 560px){
@@ -233,10 +316,10 @@ textarea{
 		padding-bottom: 30px;
 	}
 
-	.projectContainer{
+	/*.projectContainer{
 		width:100%;
 		padding-bottom: 30px;
-	}
+	}*/
 
 	p{
 		font-weight: 300;
