@@ -109,26 +109,64 @@ a:hover{
 }
 
 .container{
-	 margin-left: 13%;
-    margin-right: 13%;
+	 margin-left: 10%;
+    margin-right: 10%;
 }
 
 .inner{
 	text-align: center;
   display: table-cell;
   vertical-align: middle;
+
 }
 
-.homeNav{
-	top:0;
+.nav{
+	
 	padding-top: 50px;
-	width: 100%;
-	position: absolute;
+	width: 100%;	
 }
 
-.homeNav a{
+.logo_black{
+	width: 30px;
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 13px;
+}
+
+.nav p{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: rgba(0,0,0,.8);
+	display: inline-block;
+	font-weight: 200;
+	letter-spacing: 3px;
+	margin-left: 20px;
+}
+
+.nav a{
 	right:0;
+	color: rgba(255,255,255,.8);
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	
+}
+
+.nav a:hover{
+	letter-spacing: 4px;
 	color: #fff;
+}
+
+
+
+li{
+	display: inline-block;
+	padding-left: 20px;
+}
+
+ul{
+	float: right;
+	margin-top: 20px;
 }
 
 
@@ -389,6 +427,12 @@ textarea{
 	  opacity:1;*/
 }
 
+.footer{
+	width: 100%;
+	min-height: 200px;
+	background: #fff;
+	/*margin-top: 100px;*/
+}
 
 
 @media only screen and (max-width: 560px){
