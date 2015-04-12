@@ -46,7 +46,7 @@
 
 
 #myName{
-	letter-spacing: 8px;
+	letter-spacing: 3px;
 	display: inline-block;
 	color: #fff;
 	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -57,10 +57,10 @@
 }
 
 #tagline{
-	font-size: 14px;
-	margin-top: -15px;
+	font-size: 20px;
+	
 	color: rgba(255,255,255,1);
-	letter-spacing: 2px;
+	letter-spacing: 6px;
 	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
@@ -68,8 +68,10 @@
             animation: fadein 1.5s;
 }
 
+
+
 h1{
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 200;
 
 }
@@ -82,15 +84,18 @@ a, a:hover, a:focus{
 	color: #ff3265;
 	 text-decoration: none;
 	 padding-bottom: 18px;
+	 letter-spacing: 3px;
+	 font-weight: 300;
 	  -webkit-transition: all .3s ease;
 	  -moz-transition: all .3s ease;
 	  -ms-transition: all .3s ease;
 	  -o-transition: all .3s ease;
 	  transition: all .3s ease;
+	  font-size: 16px
 }
 
 a:hover{
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 	 -webkit-transition: all .3s ease;
 	  -moz-transition: all .3s ease;
 	  -ms-transition: all .3s ease;
@@ -127,10 +132,10 @@ a:hover{
 }
 
 .logo_black{
-	width: 30px;
+	width: 60px;
 	display: inline-block;
 	cursor: pointer;
-	margin-top: 13px;
+	
 }
 
 .nav p{
@@ -182,11 +187,11 @@ ul{
 	padding-top: 18px;
 	color: #fff;
 	transition: all 0.2s ease;
-	-webkit-animation: fadein .2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .2s; /* Firefox < 16 */
-        -ms-animation: fadein .2s; /* Internet Explorer */
-         -o-animation: fadein .2s; /* Opera < 12.1 */
-            animation: fadein .2s;
+	-webkit-animation: fadein .1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein .1s; /* Firefox < 16 */
+        -ms-animation: fadein .1s; /* Internet Explorer */
+         -o-animation: fadein .1s; /* Opera < 12.1 */
+            animation: fadein .1s;
 	
 	
 }
@@ -194,14 +199,15 @@ ul{
 .btn-default:hover, .btn-lg:hover{
 	background:#ee315f;
 	transition: all 0.2s ease;
-	-webkit-animation: fadein .2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein .2s; /* Firefox < 16 */
-        -ms-animation: fadein .2s; /* Internet Explorer */
-         -o-animation: fadein .2s; /* Opera < 12.1 */
-            animation: fadein .2s;
+	-webkit-animation: fadein .1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein .1s; /* Firefox < 16 */
+        -ms-animation: fadein .1s; /* Internet Explorer */
+         -o-animation: fadein .1s; /* Opera < 12.1 */
+            animation: fadein .1s;
 	cursor: pointer;
 	color: #fff;
-	letter-spacing: 3px
+	letter-spacing: 4px;
+	font-size: 12px;
 
 }
 
