@@ -1,27 +1,6 @@
 
 
 .logo{
-
-	width: 140px;
-	padding-bottom: 0px;
-	/*padding-top: 270px;*/
-}
-
-#name{
-	letter-spacing: 8px;
-	display: inline-block;
-}
-
-#tagline{
-	font-size: 16px;
-	margin-top: -15px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 2px;
-}
-
-h1{
-	font-size: 24px;
-
 	width: 150px;
 	padding-bottom: 0px;
 	/*padding-top: 270px;*/
@@ -91,6 +70,11 @@ h1{
 
 
 
+h1{
+	font-size: 16px;
+	font-weight: 200;
+
+}
 
 p{
 	color: rgba(0,0,0,.5);
@@ -120,33 +104,24 @@ a:hover{
 }
 
 
-
 .cover{
 	text-align: center;
 }
 
 .cover-container{
-
 	height: 100vh;
 	display: table;
 }
-
-
 
 .container{
 	 margin-left: 10%;
     margin-right: 10%;
 }
 
-
 .inner{
 	text-align: center;
   display: table-cell;
   vertical-align: middle;
-
-}
-
-
 
 }
 
@@ -200,24 +175,15 @@ ul{
 }
 
 
-
 .btn-default, .btn-lg, .btn-default:focus{
 	border-radius: 30px;
 	border: #64ffeb;
-
 	letter-spacing: 2px;
-
 	width: 200px;
 	height: 50px;
 	font-weight: 300!important;
 	background: #ff3265;
 	font-size: 12px;
-
-	padding-top: 16px;
-	color: #fff;
-	transition: all 0.2s ease;
-	margin-top: 10px;
-
 	padding-top: 18px;
 	color: #fff;
 	transition: all 0.2s ease;
@@ -227,18 +193,12 @@ ul{
          -o-animation: fadein .1s; /* Opera < 12.1 */
             animation: fadein .1s;
 	
-
 	
 }
 
 .btn-default:hover, .btn-lg:hover{
 	background:#ee315f;
 	transition: all 0.2s ease;
-
-	
-
-
-
 	-webkit-animation: fadein .1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein .1s; /* Firefox < 16 */
         -ms-animation: fadein .1s; /* Internet Explorer */
@@ -250,7 +210,6 @@ ul{
 	font-size: 12px;
 
 }
-
 
 
 
@@ -270,9 +229,7 @@ ul{
 	width: auto;
 	overflow: hidden;
 	top:-30%;
-
-	left: -10%;
-
+	left: -5%;
 
 
 }
@@ -289,40 +246,12 @@ canvas{
   position: fixed;
 	opacity: .1;
 	width: 100%;
-
-		height: 100%;
+	height: 100%;
 	overflow: hidden;
 	z-index: -1;
-	
-
 	top: 0;
 	left: 0;
-
  
-}
-
-
-
-.contact{
-	text-align: center;
-	margin: 0 auto;
-	padding-bottom: 10px;
-	/*background: rgba(255,50,101,1);*/
-	background: #f7f7f7;
-	min-height: 500px;
-
-}
-
-
-.bottom{
-	 background: rgba(255,255,255,.98);
-	padding-top: 150px;
-	padding-bottom: 150px;
-	min-height: 500px;
-}
-
-.project{
-	width: 30%;
 }
 
 
@@ -512,7 +441,6 @@ textarea{
 }
 
 
-
 @media only screen and (max-width: 560px){
 	.splash{
 		height: 100%;
@@ -531,12 +459,6 @@ textarea{
 
 	.bottom{
 		padding-top: 60px;
-		padding-bottom: 30px;
-	}
-
-
-	.project{
-		width:100%;
 		padding-bottom: 30px;
 	}
 
@@ -567,6 +489,5 @@ textarea{
   .container {
   
   }
-
 }
 
