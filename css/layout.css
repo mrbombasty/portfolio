@@ -46,9 +46,10 @@
 
 
 #myName{
-	letter-spacing: 3px;
-	display: inline-block;
-	color: #fff;
+	letter-spacing: 8px;
+  	display: inline-block;
+  	color: #fff;
+  -webkit-animation: fadein 1.5s;
 	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
@@ -57,22 +58,17 @@
 }
 
 #tagline{
-	font-size: 20px;
-	
-	color: rgba(255,255,255,1);
-	letter-spacing: 6px;
-	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1.5s; /* Firefox < 16 */
-        -ms-animation: fadein 1.5s; /* Internet Explorer */
-         -o-animation: fadein 1.5s; /* Opera < 12.1 */
-            animation: fadein 1.5s;
+	font-size: 14px;
+  margin-top: -15px;
+  color: rgba(255,255,255,1);
+  letter-spacing: 2px;
 }
 
 
 
 h1{
-	font-size: 16px;
-	font-weight: 200;
+	font-size: 22px;
+	font-weight: 300;
 
 }
 
@@ -91,7 +87,7 @@ a, a:hover, a:focus{
 	  -ms-transition: all .3s ease;
 	  -o-transition: all .3s ease;
 	  transition: all .3s ease;
-	  font-size: 16px
+	  font-size: 14px
 }
 
 a:hover{
@@ -127,8 +123,19 @@ a:hover{
 
 .nav{
 	
-	padding-top: 50px;
+	padding-top: 40px;
 	width: 100%;	
+
+}
+
+.bottom-border{
+	border-bottom: solid 1px;
+	border-color: #000;
+}
+
+.nav-container{
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .logo_black{
@@ -206,7 +213,7 @@ ul{
             animation: fadein .1s;
 	cursor: pointer;
 	color: #fff;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	font-size: 12px;
 
 }
@@ -296,23 +303,7 @@ textarea{
 	
 }
 
-.centeredCircle{
-	margin: 0 auto;
-	width: 80px;
-	display: block;
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
 
-.bottom h1{
-	margin-left: 10%;
-	margin-right: 10%;
-	color: rgba(0,0,0,.5);
-	font-size: 18px;
-	
-	text-align: center;
-
-}
 
 /*.projectContainer{
 	width: 31%;
@@ -326,9 +317,7 @@ textarea{
   padding: 0;
 }
 
-.col-md-4{
-	width: 33.33%
-}
+
 
 
 .project{
@@ -367,7 +356,7 @@ textarea{
 
 .info p{
 	margin: 0;
-	font-size: 10px;
+	font-size: 12px;
 	color: rgba(255,255,255,1);
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -375,7 +364,7 @@ textarea{
 
 .info h1{
 	margin: 0;
-	font-size: 16px;
+	font-size: 18px;
 	color: rgba(255,255,255,1);
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -416,28 +405,24 @@ textarea{
 	background: #fbfbfb!important;
 }
 
-.achievement{
-	  /*-webkit-filter: grayscale(100%); 
-	  filter: grayscale(100%);
-	  opacity:1;*/
-	  -webkit-transition: all .3s ease;
-	  -moz-transition: all .3s ease;
-	  -ms-transition: all .3s ease;
-	  -o-transition: all .3s ease;
-	  transition: all .3s ease;
-}
 
-.achievement:hover{
-	  /*-webkit-filter: grayscale(0%); 
-	  filter: grayscale(0%);
-	  opacity:1;*/
-}
+
+
 
 .footer{
 	width: 100%;
-	min-height: 200px;
+	
 	background: #fff;
 	/*margin-top: 100px;*/
+	text-align: center;
+}
+
+.footer img{
+	width: 40px;
+	opacity: .3;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
 }
 
 
