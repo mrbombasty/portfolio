@@ -5,6 +5,7 @@ h1{
 	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .awesome{
@@ -44,6 +45,23 @@ h1{
 	display: block;
 	margin: 0 auto;
 	height: 150px;
+}
+
+@media only screen and (max-width: 560px){
+	h1{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.nav{
+		margin-bottom: 10px;
+	}
+
+	.title{
+		margin-bottom: 0;
+		padding-bottom:0;
+	}
+
 }
 
 

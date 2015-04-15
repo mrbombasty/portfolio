@@ -9,15 +9,18 @@
 p{
 	color: rgba(0,0,0,.8);
 	font-weight: 200;
+	line-height: 25px;
 }
 
 h1{
 	color: rgba(0,0,0,.8);
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 400;
+	
+	
 }
 
-.nav{
+/*.nav{
 	padding-bottom: 40px;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 	margin-bottom: 50px;
@@ -34,13 +37,48 @@ h1{
 	
 	color: #000;
 }
+*/
 
+.navbar-default {
+	position: relative;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+	margin-bottom: 40px;
 
-
-.logo_black{
-	width: 60px;
-	margin-top: 0px;
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(0,0,0,.8);
+  
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+  
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: #000;
+  
+}
+
+.navbar-default .navbar-nav>.active>a{
+	color: #000;
+	border-color: #000;
+
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+	color: #000;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #000;
+
+}
+
+
+
 
 .gallery{
 	margin: 0;
@@ -78,3 +116,26 @@ h1{
 	margin-top: 100px;
 }
 
+@media only screen and (max-width: 560px){
+	.projectDetails{
+		padding-left: 0;
+	}
+
+	.btn-default, .btn-lg, .btn-default:focus{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.navbar-default {
+		  
+		  background-color: rgba(0,0,0,0);
+		  
+		}
+
+		.gallery{
+	
+	padding-bottom: 20px;
+	
+}
+
+}
