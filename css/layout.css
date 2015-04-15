@@ -144,6 +144,16 @@ a:hover{
 
 }
 
+/*.navbar-header{
+	width: 300px;
+	
+}*/
+
+/*.navbar-header p{
+	padding-left: 20px;
+	line-height: inherit;
+}*/
+
 .navbar-splash{
 	position: absolute;
 }
@@ -383,6 +393,7 @@ textarea{
 	letter-spacing: 2px;
 	padding-bottom: 30px;
 	margin-top: 0;
+	font-weight: 400;
 }
 
 
@@ -588,10 +599,11 @@ textarea{
 		padding-bottom: 30px;
 	}*/
 
-	p{
-		font-weight: 300;
+	p, a, h1{
+		font-weight: 400;
 
 	}
+
 
 	#particles-js{
 		
