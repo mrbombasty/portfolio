@@ -9,6 +9,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
   <link href='http://fonts.googleapis.comcss?family=Open+Sans:400,600,300' rel='stylesheet' type='textcss'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
   <title>Sebastian Petravic</title>
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,15 +29,46 @@
       <body>
         <div class="site-wrapper">
           <div class="site-wrapper-inner">
-            <!-- <div class="homeNav">
+           <!--  <div class="nav" style="position:absolute;">
               <div class="container">
-                  <a href="">WORK</a>
+               <ul>
+                <a href="#mywork"><li style="border-bottom:solid 1px;">WORK</li></a>
+                <a href="about"><li>ABOUT</li></a>
+                <a href="contact"><li>CONTACT</li></a>
+              </ul>
+            </div> -->
+            <!-- </div> -->
+
+            <nav class="navbar navbar-default navbar-splash">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- <a class="navbar-brand" href="#"><img alt="Brand" src="/img/logo_small.png"></a> -->
                 </div>
-                </div> -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#mywork">WORK <span class="sr-only">(current)</span></a></li>
+                    <li><a href="about">ABOUT</a></li>
+                    <li><a href="contact">CONTACT</a></li>
+
+                  </ul>
+                 
+                  
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
             <div class="cover-container">
 
               <div class="inner cover">
-                <img src="img/background_1.png" class="splash" id="backgroundImg">
+                <img src="img/background_1.jpg" class="splash" id="backgroundImg">
 
                 <div id="particles-js"></div>
                 <script src="http://vincentgarreau.com/particles.js/particles.js"></script>
@@ -44,7 +76,7 @@
                 <div id="searchContainer">
                   <h1 class="cover-heading">
                     <p id="myName">SEBASTIAN PETRAVIC</p> 
-                    
+
                     <p id="tagline">DIGITAL MEDIA DESIGNER
                       <p class="lead">
                         <a href="#mywork" class="btn btn-lg btn-default" >VIEW WORK</a>
@@ -53,15 +85,10 @@
                   </div>
                 </div>
               </div>
-              <div class="bottom" >
-                <div class="container">
-                  <img class="centeredCircle"src="img/me.png">
-                  <h1>My name is Sebastian Petravic, I am a media designer that loves creating beautiful, user friendly experiences. Here are some of the apps and websites I have worked on.</h1>
-                </div>
-              </div>
+
               <div class="bottom greyBack" id="mywork" >
                 <div class="container">
-                  <!-- <p class="title">MY WORK</p> -->
+                  <p class="title">MY WORK</p>
                   <div class="col-md-4 noPadding">
                     <img class="project" src="img/film hunt cover.png">
                     <a href="filmhunt/" ><div class="info">
@@ -75,64 +102,47 @@
 
                   <div class=" col-md-4 noPadding">
                     <img class="project" src="img/glassjar app cover.png">
-                    <div class="info">
+                    <a href="glassjar" ><div class="info">
                       <div class="infoText">
                         <h1>Glassjar</h1>
                         <p>iOS and Android app</p>
                       </div>
-                    </div>
+                    </div></a>
                   </div>
                   <div class="col-md-4 noPadding">
                     <img class="project " src="img/glassjar cover.png">
-                    <div class="info">
+                     <a href="/glassjarWebsite/" ><div class="info">
                       <div class="infoText">
                         <h1>Glassjar Website</h1>
                       </div>
-                    </div>
+                    </div></a>
                   </div>
                   <div class=" col-md-4 noPadding">
                     <img class="project" src="img/journey cover.png">
-                    <div class="info">
+                     <a href="/Journey/" ><div class="info">
                       <div class="infoText">
                         <h1>Journey</h1>
                         <p>Android app</p>
                       </div>
-                    </div>
+                    </div></a>
                   </div>
-                  <!-- <div class="col-md-4">
+                  <div class="col-md-4 noPadding">
                     <img class="project" src="img/forest protector cover.png">
-                    <div class="info">
+                     <a href="/ForestProtector/" ><div class="info">
                       <div class="infoText">
                         <h1>Forest Protector</h1>
                         <p>2D Video Game</p>
                       </div>
-                    </div>
-                  </div> -->
+                    </div></a>
+                  </div>
                 </div>
               </div> 
-              <div class="bottom">
-                <div class="container">
-                  <!-- <img class="centeredCircle"src="img/achievements.png"> -->
-                  <p class="title">AWESOME STUFF I'VE DONE</p>
-                
-                    <div class="col-md-6" style="min-height=100px;">
-                      <a href="http://www.victoria.ac.nz/" target="blank"><img src="img/victoria.png" class="achievement col-md-3"></a>
-                        <p class="col-md-9 noPadding">After graduating, I recieved a summer scholarship from Victoria University to create an original app for Tourism New Zealand in 2014.
-                        </div>
-                          <div class="col-md-6">
-                    <a href="https://www.ycombinator.com/" target="blank"><img src="img/yc.png" class="achievement col-md-3"></a>
-                    <p class="col-md-9 noPadding">I was a part of the first ever New Zealand company to attend Y Combinator, in the winter 2015 batch. Y Combinator is the largest start up accelerator in the world.
-                    </div>
-                      </div>
-                    </div>
-                    <div class="bottom greyBack contact">
-                      <div class="container">
-                       <p class="title">SAY HELLO</p>
-                       <p>Email: sebastianpetravic@gmail.com</p>
-                       <p>Phone: 0279167517</p>
-                       <a href="https://nz.linkedin.com/in/sebastianpetravic" target="black">linkedin</a>
-                       <a>|</a>
-                       <a href="https://www.behance.net/SebastianPetravic" target="black">behance</a>
+
+
+
+
+
+
                  <!-- <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
                   <div class="row">
                     <label for="name">Your name</label><br />
@@ -147,10 +157,14 @@
                     <textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br />
                   </div>
                   <input style="margin-top:20px;"id="submit_button" type="submit" value="SEND EMAIL" class="btn btn-lg btn-default" />
-                </form>         -->   
+                </form>   
+              -->   
+                  <!-- <div class="footer">
+                    <img src="img/logo_small.png">
+                  </div> -->
+                </div>
               </div>
             </div>
-          </div>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->

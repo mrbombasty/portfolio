@@ -4,43 +4,81 @@
   padding: 0;
 }
 
-.col-md-4{
-	width: 33.33%;
-}
+
 
 p{
 	color: rgba(0,0,0,.8);
 	font-weight: 200;
+	line-height: 25px;
 }
 
 h1{
 	color: rgba(0,0,0,.8);
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 400;
+	
+	
 }
 
-.nav{
-	margin: 50px 0;
-
+/*.nav{
+	padding-bottom: 40px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+	margin-bottom: 50px;
 }
 
-
-
-.nav p{
-	text-transform: uppercase;
-	font-size: 14px;
+.nav a{
+	
 	color: rgba(0,0,0,.8);
-	display: inline-block;
-	font-weight: 200;
-	letter-spacing: 3px;
-	margin-left: 20px;
+	
+	
 }
 
-.logo_black{
-	width: 60px;
-	display: inline-block;
-	cursor: pointer;
+.nav a:hover{
+	
+	color: #000;
 }
+*/
+
+.navbar-default {
+	position: relative;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+	margin-bottom: 40px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(0,0,0,.8);
+  
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+  
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: #000;
+  
+}
+
+.navbar-default .navbar-nav>.active>a{
+	color: #000;
+	border-color: #000;
+
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+	color: #000;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #000;
+
+}
+
+
+
 
 .gallery{
 	margin: 0;
@@ -51,6 +89,8 @@ h1{
 .projectDetails{
 	padding-left: 40px;
 }
+
+
 
 .btn-default, .btn-lg, .btn-default:focus{
 	border-radius: 30px;
@@ -67,6 +107,7 @@ h1{
 .btn-default:hover, .btn-lg:hover{
 	background: rgba(0,0,0,.8);
 	border:none;
+	color: #fff;
 	
 
 }
@@ -75,8 +116,26 @@ h1{
 	margin-top: 100px;
 }
 
-.footer{
-	width: 100%;
-	min-height: 200px;
-	/*margin-top: 100px;*/
+@media only screen and (max-width: 560px){
+	.projectDetails{
+		padding-left: 0;
+	}
+
+	.btn-default, .btn-lg, .btn-default:focus{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.navbar-default {
+		  
+		  background-color: rgba(0,0,0,0);
+		  
+		}
+
+		.gallery{
+	
+	padding-bottom: 20px;
+	
+}
+
 }

@@ -1,0 +1,18 @@
+#tagline{
+	font-size: 20px;
+	
+	letter-spacing: 4px;
+	
+}
+
+@media only screen and (max-width: 560px){
+	#tagline{
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+	.navbar-default {
+		  
+		  background-color: rgba(0,0,0,0);
+		  
+		}
+	}
