@@ -549,6 +549,10 @@ textarea{
 		  
 		}
 
+	.navbar-splash{
+	padding-bottom: 0;
+}
+
 	.container-fluid{
 		margin-left: 10px;
 		margin-right: 10px;
