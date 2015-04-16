@@ -150,6 +150,8 @@ h1{
 	}
 	p{
 		font-weight: 400;
+		margin-left: 0;
+	margin-right: 0;
 	}
 	a{
 		font-weight: 400;
