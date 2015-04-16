@@ -448,7 +448,7 @@ textarea{
 
 }
 
-.info:hover{
+.info:hover, .info:focus{
 	-webkit-opacity: .8;
   	-moz-opacity: .8;
   	opacity: .8;
