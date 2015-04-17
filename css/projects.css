@@ -84,6 +84,13 @@ h1{
 	width: 100%;
 }
 
+.gallery-mobile{
+	margin: 0;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right:20px;
+}
+
 .projectDetails{
 	/*padding-left: 40px;*/
 	padding-bottom: 40px;
