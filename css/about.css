@@ -1,8 +1,8 @@
 h1{
 	margin-left: 12%;
 	margin-right: 12%;
-	color: rgba(0,0,0,.8);
-	font-size: 17px;
+	color: rgba(0,0,0,.5);
+	font-size: 19px;
 	font-weight: 300;
 	text-align:center;
 	letter-spacing: inherit;
@@ -10,7 +10,7 @@ h1{
 }
 
 .awesome{
-	color: rgba(0,0,0,.8);
+	color: rgba(0,0,0,.5);
 	font-size: 16px;
 	width: 80%;
 	margin-left: auto;
