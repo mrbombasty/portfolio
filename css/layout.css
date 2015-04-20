@@ -97,7 +97,7 @@ a, a:hover, a:focus{
 	  font-size: 14px
 }
 
-a:hover{
+li:hover{
 	letter-spacing: 5px;
 	 -webkit-transition: all .3s ease;
 	  -moz-transition: all .3s ease;
@@ -351,7 +351,7 @@ canvas{
 
 #particles-js{
   position: fixed;
-	opacity: .1;
+	opacity: .12;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
@@ -518,12 +518,22 @@ textarea{
 	text-align: center;
 }
 
-.footer img{
-	width: 40px;
-	opacity: .3;
+
+
+.social{
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	opacity: .7;
+	-webkit-filter: invert(100%);
+}
 
+.social:hover{
+	letter-spacing: inherit;
+	opacity: 1;
 }
 
 
