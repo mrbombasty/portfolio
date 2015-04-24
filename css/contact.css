@@ -5,10 +5,12 @@
 	
 }
 
-h1{
-	  font-size: 20px;
+.title{
+	  
   font-weight: 300;
-  letter-spacing: 8px;
+  color: #fff;
+  margin-bottom: 0;
+  padding-bottom: 0;
  
 
   
