@@ -12,6 +12,10 @@
 	
 }
 
+body{
+	background: #ff3265;
+}
+
 
 
 
@@ -426,7 +430,7 @@ textarea{
 
 
 .info{
-	background: #ff3265;
+	background: #000;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -522,6 +526,7 @@ textarea{
 	font-weight: 300;
 	color: #fff;
 	font-size: 17px;
+	line-height: 28px;
 	color: rgba(255,255,255,.8);
 	padding-top: 40px;
 	padding-bottom:40px;

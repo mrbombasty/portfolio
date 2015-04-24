@@ -8,6 +8,9 @@ h1{
 	letter-spacing: inherit;
 	
 }
+body{
+	background: #fff;
+}
 
 .awesome{
 	color: rgba(0,0,0,.5);
