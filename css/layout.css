@@ -611,7 +611,13 @@ textarea{
 		font-size:13px;
 	}
 
-	
+	.cover-container{
+		height:600px;
+	}
+
+	.splash{
+		height:100%;
+	}
 
 
 	
