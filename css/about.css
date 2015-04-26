@@ -1,6 +1,5 @@
 h1{
-	margin-left: 12%;
-	margin-right: 12%;
+	
 	color: rgba(0,0,0,.5);
 	font-size: 19px;
 	font-weight: 300;
@@ -21,6 +20,10 @@ body{
 	text-align: center;
 }
 
+.container{
+	margin-right: 28%;
+	margin-left: 28%;
+}
 
 
 
@@ -54,7 +57,12 @@ body{
 @media only screen and (max-width: 560px){
 	h1, .awesome{
 		
-		text-align: inherit;
+		
+	}
+
+	.container{
+		margin-left: 20px;
+  margin-right: 20px;
 	}
 
 	.nav{
