@@ -59,13 +59,13 @@ body{
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s; /* Internet Explorer */
          
-    font-size: 24px;
+    font-size: 21px;
     -o-animation: fadein 1.5s; /* Opera < 12.1 */
             animation: fadein 1.5s;
 }
 
 #tagline{
-    font-size: 15px;
+    font-size: 14px;
   font-weight: 400;
     margin-top: -15px;
   color: rgba(255,255,255,1);
@@ -320,7 +320,7 @@ ul{
 
 
 .lead{
-    margin-top: 30px;
+    margin-top: 40px;
      -webkit-animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s; /* Firefox < 16 */
@@ -394,7 +394,7 @@ textarea{
 .title{
     text-align: center;
     color: rgba(0,0,0,.7);
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 2px;
     padding-bottom: 30px;
     margin-top: 0;
