@@ -20,10 +20,10 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 10,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 200
         }
       },
       color: {
@@ -59,7 +59,7 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 20,
+          speed: 2,
           size_min: 0,
           sync: false
         }
@@ -68,7 +68,7 @@ var pJS = function(tag_id, params){
         enable: true,
         distance: 100,
         color: '#fff',
-        opacity: 1,
+        opacity: .5,
         width: 1
       },
       move: {
@@ -306,7 +306,7 @@ var pJS = function(tag_id, params){
     this.opacity = (pJS.particles.opacity.random ? Math.random() : 1) * pJS.particles.opacity.value;
     if(pJS.particles.opacity.anim.enable){
       this.opacity_status = false;
-      this.vo = pJS.particles.opacity.anim.speed / 100;
+      this.vo = pJS.particles.opacity.anim.speed / 50;
       if(!pJS.particles.opacity.anim.sync){
         this.vo = this.vo * Math.random();
       }
@@ -520,7 +520,7 @@ var pJS = function(tag_id, params){
 
       /* move the particle */
       if(pJS.particles.move.enable){
-        var ms = pJS.particles.move.speed/2;
+        var ms = pJS.particles.move.speed/8;
         p.x += p.vx * ms;
         p.y += p.vy * ms;
       }
