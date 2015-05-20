@@ -51,8 +51,11 @@ h1{
 	text-transform: inherit;
 	margin-left: 0;
 	margin-right: 4px;
+	margin-bottom: 0;
+	padding-bottom: 0;
 	border:none;
 	font-weight: 400;
+	letter-spacing: inherit;
 }
 
 .projectDetails .page-link:hover{
