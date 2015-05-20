@@ -37,6 +37,17 @@ h1{
 	
 }
 
+a, a:hover, a:focus{
+	letter-spacing: inherit;
+	  font-size: 16px;
+}
+
+a:hover, a:focus{
+	border-bottom: solid 1px #ff3265;
+	padding-bottom: 0; 
+
+}
+
 #mywork h1{
 	font-weight: 300;
 }
