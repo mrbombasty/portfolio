@@ -27,13 +27,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#fff'
+        value: '#00d1de'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: '#00d1de'
         },
         polygon: {
           nb_sides: 5
@@ -55,7 +55,7 @@ var pJS = function(tag_id, params){
         }
       },
       size: {
-        value: 20,
+        value: 1,
         random: false,
         anim: {
           enable: false,
@@ -67,7 +67,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: '#00d1de',
         opacity: .5,
         width: 1
       },
@@ -306,7 +306,7 @@ var pJS = function(tag_id, params){
     this.opacity = (pJS.particles.opacity.random ? Math.random() : 1) * pJS.particles.opacity.value;
     if(pJS.particles.opacity.anim.enable){
       this.opacity_status = false;
-      this.vo = pJS.particles.opacity.anim.speed / 50;
+      this.vo = pJS.particles.opacity.anim.speed / 100;
       if(!pJS.particles.opacity.anim.sync){
         this.vo = this.vo * Math.random();
       }
@@ -520,7 +520,7 @@ var pJS = function(tag_id, params){
 
       /* move the particle */
       if(pJS.particles.move.enable){
-        var ms = pJS.particles.move.speed/8;
+        var ms = pJS.particles.move.speed/10;
         p.x += p.vx * ms;
         p.y += p.vy * ms;
       }
