@@ -90,7 +90,7 @@ h1{
 
 .navbar-default {
 	position: relative;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+	  border-bottom: solid 1px #eee;
 	margin-bottom: 40px;
 
 }
@@ -127,11 +127,13 @@ h1{
 }
 
 
-
+.imgBorder{
+	border: 1px solid #eee;
+}
 
 .gallery{
 	margin: 0;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	width: 100%;
 }
 
@@ -145,7 +147,7 @@ h1{
 .projectDetails{
 	/*padding-left: 40px;*/
 	padding-bottom: 30px;
-	padding-top: 20px;
+	padding-top: 50px;
 }
 
 .category{
