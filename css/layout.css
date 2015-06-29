@@ -657,9 +657,11 @@ textarea{
 
 
 
-@media (min-width:1000px) {
-  .container {
-  
+@media (max-width:1400px) {
+  .splash {
+    width: 100%;
+    top: 0;
+    left: 0;
   }
 }
 
