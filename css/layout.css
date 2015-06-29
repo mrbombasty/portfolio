@@ -657,7 +657,7 @@ textarea{
 
 
 
-@media (max-width:1400px) {
+@media (min-width:1500px) {
   .splash {
     width: 100%;
     top: 0;
