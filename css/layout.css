@@ -660,6 +660,7 @@ textarea{
 @media (min-width:1500px) {
   .splash {
     width: 100%;
+    
     top: 0;
     left: 0;
   }

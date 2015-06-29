@@ -16,6 +16,10 @@
   
 }
 
+.splash{
+	top:0;
+	left: 0;
+}
 
 #contactContainer{
 	 -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
