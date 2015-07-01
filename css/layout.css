@@ -511,6 +511,7 @@ textarea{
     
     background: #fbfbfb!important;
     border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
 }
 
 
@@ -524,7 +525,7 @@ textarea{
 }
 
 .email h1{
-    color: #fff;
+    color: #ff3265;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -535,10 +536,10 @@ textarea{
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
-    color: #fff;
+    color:#969696;
     color: rgba(255,255,255);
-    padding-top: 35px;
-    padding-bottom:40px;
+    padding-top: 60px;
+    padding-bottom:60px;
 }
 
 
@@ -660,7 +661,7 @@ textarea{
 @media (min-width:1500px) {
   .splash {
     width: 100%;
-    
+
     top: 0;
     left: 0;
   }
