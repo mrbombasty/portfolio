@@ -395,7 +395,7 @@ textarea{
 .title{
     text-align: center;
     color: rgba(0,0,0,.7);
-    font-size: 23px;
+    font-size: 22px;
     letter-spacing: 2px;
     padding-bottom: 30px;
     margin-top: 0;
@@ -538,7 +538,7 @@ textarea{
     line-height: 28px;
     color:#969696;
     color: rgba(255,255,255);
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom:60px;
 }
 
