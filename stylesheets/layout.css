@@ -172,7 +172,7 @@ a, a:hover {
 }
 /* line 173, ../sass/layout.scss */
 .intro .name-section {
-  padding: 250px 0 50px 0;
+  padding: 300px 0 50px 0;
 }
 /* line 175, ../sass/layout.scss */
 .intro .name-section h1 {
@@ -193,7 +193,7 @@ a, a:hover {
 
 /* line 194, ../sass/layout.scss */
 .work .work-header {
-  padding: 100px 0 150px;
+  padding: 150px 0 150px;
   font-size: 20px;
   font-weight: 600;
   color: #ff4b6e;
