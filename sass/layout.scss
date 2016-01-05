@@ -100,7 +100,7 @@ a, a:hover{
 	.navbar-brand{
 		height: auto;
 		margin: 0;
-		opacity: .5;
+		opacity: 1;
 	}
 	.navbar-brand:hover{
 		opacity: 1;
@@ -176,7 +176,7 @@ a, a:hover{
 			font-size: 28px;
 			/*text-transform: uppercase;*/
 			font-weight: 600;
-			opacity: .6;
+			opacity: .8;
 			letter-spacing: 1px;
 		}
 		h2{
@@ -393,9 +393,10 @@ a, a:hover{
 	h1{
 		font-size: 28px;
 		font-weight: 500;
-		opacity: .6;
+		opacity: .8;
 		letter-spacing: 1px;
-		padding-top: 10px;
+		line-height: 1.8;
+		
 	}
 }
 

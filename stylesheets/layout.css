@@ -93,7 +93,7 @@ a, a:hover {
 .navbar .navbar-brand {
   height: auto;
   margin: 0;
-  opacity: .5;
+  opacity: 1;
 }
 /* line 105, ../sass/layout.scss */
 .navbar .navbar-brand:hover {
@@ -179,7 +179,7 @@ a, a:hover {
   font-size: 28px;
   /*text-transform: uppercase;*/
   font-weight: 600;
-  opacity: .6;
+  opacity: .8;
   letter-spacing: 1px;
 }
 /* line 182, ../sass/layout.scss */
@@ -395,25 +395,25 @@ a, a:hover {
 .more-info h1 {
   font-size: 28px;
   font-weight: 500;
-  opacity: .6;
+  opacity: .8;
   letter-spacing: 1px;
-  padding-top: 10px;
+  line-height: 1.8;
 }
 
 @media (min-width: 768px) {
-  /* line 403, ../sass/layout.scss */
+  /* line 404, ../sass/layout.scss */
   .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 409, ../sass/layout.scss */
+  /* line 410, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1170px) {
-  /* line 415, ../sass/layout.scss */
+  /* line 416, ../sass/layout.scss */
   .container {
     width: 970px;
   }
