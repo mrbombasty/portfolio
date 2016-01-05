@@ -151,7 +151,7 @@ a, a:hover{
 	width: 100px;
 	height: 8px; 
 	opacity: .6;
-	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .intro{
@@ -171,7 +171,7 @@ a, a:hover{
 	    animation: fadein 1.5s;
 	}
 	.name-section{
-		padding: 100px 0; 
+		padding: 250px 0 50px 0; 
 		h1{
 			font-size: 28px;
 			/*text-transform: uppercase;*/
@@ -233,6 +233,7 @@ a, a:hover{
 			right: 0;
 			margin-top: 450px;
 			opacity: .5;
+			width: 120px;
 			
 		}
 		.divider{

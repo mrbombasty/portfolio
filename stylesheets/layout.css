@@ -151,7 +151,7 @@ a, a:hover {
   width: 100px;
   height: 8px;
   opacity: .6;
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 /* line 158, ../sass/layout.scss */
@@ -172,7 +172,7 @@ a, a:hover {
 }
 /* line 173, ../sass/layout.scss */
 .intro .name-section {
-  padding: 100px 0;
+  padding: 250px 0 50px 0;
 }
 /* line 175, ../sass/layout.scss */
 .intro .name-section h1 {
@@ -234,18 +234,19 @@ a, a:hover {
   right: 0;
   margin-top: 450px;
   opacity: .5;
+  width: 120px;
 }
-/* line 238, ../sass/layout.scss */
+/* line 239, ../sass/layout.scss */
 .work .project-2 .divider {
   margin-top: 250px;
   margin-left: 180px;
   width: 40px;
 }
-/* line 246, ../sass/layout.scss */
+/* line 247, ../sass/layout.scss */
 .work .project-3 .project-img {
   background: url(../img/shift-1.jpg);
 }
-/* line 249, ../sass/layout.scss */
+/* line 250, ../sass/layout.scss */
 .work .project-3 .square {
   border: 20px #ff4b6e solid;
   width: 200px;
@@ -254,16 +255,16 @@ a, a:hover {
   margin: 0 0 -60px 50px;
   opacity: .1;
 }
-/* line 261, ../sass/layout.scss */
+/* line 262, ../sass/layout.scss */
 .work .project-4 .project-img {
   background: url(../img/tt-1.jpg);
 }
-/* line 264, ../sass/layout.scss */
+/* line 265, ../sass/layout.scss */
 .work .project-4 .zigzag {
   width: 80px;
   padding-top: 80px;
 }
-/* line 268, ../sass/layout.scss */
+/* line 269, ../sass/layout.scss */
 .work .project-4 .divider {
   margin-top: 120px;
   opacity: .5;
@@ -271,7 +272,7 @@ a, a:hover {
   width: 70px;
   height: 10px;
 }
-/* line 275, ../sass/layout.scss */
+/* line 276, ../sass/layout.scss */
 .work .project-4 .square {
   background: #ff4b6e;
   width: 40px;
@@ -280,11 +281,11 @@ a, a:hover {
   opacity: .4;
   margin-top: -150px;
 }
-/* line 286, ../sass/layout.scss */
+/* line 287, ../sass/layout.scss */
 .work .project-5 .project-img {
   background: url(../img/fh-1.jpg);
 }
-/* line 289, ../sass/layout.scss */
+/* line 290, ../sass/layout.scss */
 .work .project-5 .divider {
   width: 300px;
   height: 15px;
@@ -294,22 +295,22 @@ a, a:hover {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 298, ../sass/layout.scss */
+/* line 299, ../sass/layout.scss */
 .work .project-5 .divider-2 {
   margin: 400px 0 0 400px;
   width: 150px;
   height: 20px;
 }
-/* line 305, ../sass/layout.scss */
+/* line 306, ../sass/layout.scss */
 .work .project {
   margin-bottom: 300px;
   padding: 0;
 }
-/* line 308, ../sass/layout.scss */
+/* line 309, ../sass/layout.scss */
 .work .project .shape {
   position: absolute;
 }
-/* line 311, ../sass/layout.scss */
+/* line 312, ../sass/layout.scss */
 .work .project .project-img {
   height: 400px;
   background-size: cover;
@@ -325,7 +326,7 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 328, ../sass/layout.scss */
+/* line 329, ../sass/layout.scss */
 .work .project .project-img:hover {
   opacity: 1;
   -webkit-filter: grayscale(0);
@@ -337,17 +338,17 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 341, ../sass/layout.scss */
+/* line 342, ../sass/layout.scss */
 .work .project .project-info {
   float: left;
   position: absolute;
   z-index: 2;
 }
-/* line 345, ../sass/layout.scss */
+/* line 346, ../sass/layout.scss */
 .work .project .project-info a:hover {
   text-decoration: none;
 }
-/* line 348, ../sass/layout.scss */
+/* line 349, ../sass/layout.scss */
 .work .project .project-info a:hover h1 {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
@@ -355,7 +356,7 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 357, ../sass/layout.scss */
+/* line 358, ../sass/layout.scss */
 .work .project .project-info a h1 {
   font-size: 32px;
   font-weight: 600;
@@ -367,7 +368,7 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 369, ../sass/layout.scss */
+/* line 370, ../sass/layout.scss */
 .work .project .project-info p {
   font-size: 15px;
   opacity: .4;
@@ -375,22 +376,22 @@ a, a:hover {
   margin-top: 0;
   letter-spacing: 2px;
 }
-/* line 379, ../sass/layout.scss */
+/* line 380, ../sass/layout.scss */
 .work .project-left .project-info {
   right: 0;
   text-align: right;
 }
 
-/* line 386, ../sass/layout.scss */
+/* line 387, ../sass/layout.scss */
 .more-info {
   margin-bottom: 300px;
 }
-/* line 388, ../sass/layout.scss */
+/* line 389, ../sass/layout.scss */
 .more-info a {
   font-weight: 600;
   opacity: 1;
 }
-/* line 392, ../sass/layout.scss */
+/* line 393, ../sass/layout.scss */
 .more-info h1 {
   font-size: 28px;
   font-weight: 500;
@@ -400,19 +401,19 @@ a, a:hover {
 }
 
 @media (min-width: 768px) {
-  /* line 402, ../sass/layout.scss */
+  /* line 403, ../sass/layout.scss */
   .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 408, ../sass/layout.scss */
+  /* line 409, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1170px) {
-  /* line 414, ../sass/layout.scss */
+  /* line 415, ../sass/layout.scss */
   .container {
     width: 970px;
   }
