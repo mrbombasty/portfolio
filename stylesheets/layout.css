@@ -176,10 +176,10 @@ a, a:hover {
 }
 /* line 175, ../sass/layout.scss */
 .intro .name-section h1 {
-  font-size: 28px;
+  font-size: 30px;
   /*text-transform: uppercase;*/
   font-weight: 600;
-  opacity: .8;
+  opacity: .7;
   letter-spacing: 1px;
 }
 /* line 182, ../sass/layout.scss */
@@ -193,7 +193,7 @@ a, a:hover {
 
 /* line 194, ../sass/layout.scss */
 .work .work-header {
-  padding: 150px 0 150px;
+  padding: 150px 0 100px;
   font-size: 20px;
   font-weight: 600;
   color: #ff4b6e;
@@ -340,15 +340,16 @@ a, a:hover {
 }
 /* line 342, ../sass/layout.scss */
 .work .project .project-info {
-  float: left;
+  top: 50%;
+  transform: translateY(-50%);
   position: absolute;
   z-index: 2;
 }
-/* line 346, ../sass/layout.scss */
+/* line 347, ../sass/layout.scss */
 .work .project .project-info a:hover {
   text-decoration: none;
 }
-/* line 349, ../sass/layout.scss */
+/* line 350, ../sass/layout.scss */
 .work .project .project-info a:hover h1 {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
@@ -356,13 +357,12 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 358, ../sass/layout.scss */
+/* line 359, ../sass/layout.scss */
 .work .project .project-info a h1 {
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 2px;
   opacity: .8;
-  padding-top: 130px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -394,7 +394,7 @@ a, a:hover {
 /* line 393, ../sass/layout.scss */
 .more-info h1 {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 400;
   opacity: .8;
   letter-spacing: 1px;
   line-height: 1.8;
