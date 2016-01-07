@@ -297,20 +297,21 @@ a, a:hover {
 }
 /* line 299, ../sass/layout.scss */
 .work .project-5 .divider-2 {
-  margin: 400px 0 0 400px;
+  margin: 400px 0 0 0;
   width: 150px;
   height: 20px;
+  left: 50%;
 }
-/* line 306, ../sass/layout.scss */
+/* line 307, ../sass/layout.scss */
 .work .project {
   margin-bottom: 300px;
   padding: 0;
 }
-/* line 309, ../sass/layout.scss */
+/* line 310, ../sass/layout.scss */
 .work .project .shape {
   position: absolute;
 }
-/* line 312, ../sass/layout.scss */
+/* line 313, ../sass/layout.scss */
 .work .project .project-img {
   height: 400px;
   background-size: cover;
@@ -326,7 +327,7 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 329, ../sass/layout.scss */
+/* line 330, ../sass/layout.scss */
 .work .project .project-img:hover {
   opacity: 1;
   /*			-webkit-filter: grayscale(0);
@@ -338,18 +339,18 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 342, ../sass/layout.scss */
+/* line 343, ../sass/layout.scss */
 .work .project .project-info {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
   z-index: 2;
 }
-/* line 347, ../sass/layout.scss */
+/* line 348, ../sass/layout.scss */
 .work .project .project-info a:hover {
   text-decoration: none;
 }
-/* line 350, ../sass/layout.scss */
+/* line 351, ../sass/layout.scss */
 .work .project .project-info a:hover h1 {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
@@ -357,7 +358,7 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 359, ../sass/layout.scss */
+/* line 360, ../sass/layout.scss */
 .work .project .project-info a h1 {
   font-size: 32px;
   font-weight: 600;
@@ -368,7 +369,7 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 370, ../sass/layout.scss */
+/* line 371, ../sass/layout.scss */
 .work .project .project-info p {
   font-size: 15px;
   opacity: .4;
@@ -376,22 +377,22 @@ a, a:hover {
   margin-top: 0;
   letter-spacing: 2px;
 }
-/* line 380, ../sass/layout.scss */
+/* line 381, ../sass/layout.scss */
 .work .project-left .project-info {
   right: 0;
   text-align: right;
 }
 
-/* line 387, ../sass/layout.scss */
+/* line 388, ../sass/layout.scss */
 .more-info {
   margin-bottom: 300px;
 }
-/* line 389, ../sass/layout.scss */
+/* line 390, ../sass/layout.scss */
 .more-info a {
   font-weight: 600;
   opacity: 1;
 }
-/* line 393, ../sass/layout.scss */
+/* line 394, ../sass/layout.scss */
 .more-info h1 {
   font-size: 28px;
   font-weight: 400;
@@ -401,19 +402,19 @@ a, a:hover {
 }
 
 @media (min-width: 768px) {
-  /* line 404, ../sass/layout.scss */
+  /* line 405, ../sass/layout.scss */
   .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 410, ../sass/layout.scss */
+  /* line 411, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1170px) {
-  /* line 416, ../sass/layout.scss */
+  /* line 417, ../sass/layout.scss */
   .container {
     width: 970px;
   }

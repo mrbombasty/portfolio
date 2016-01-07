@@ -173,9 +173,9 @@ a, a:hover{
 	.name-section{
 		padding: 300px 0 50px 0; 
 		h1{
-			font-size: 26px;
+			font-size: 40px;
 			/*text-transform: uppercase;*/
-			font-weight: 600;
+			font-weight: 400;
 			opacity: .7;
 			letter-spacing: 1px;
 		}
@@ -297,9 +297,10 @@ a, a:hover{
 		    transform: rotate(-45deg);
 		}
 		.divider-2{
-			margin: 400px 0 0 400px;
+			margin: 400px 0 0 0;
 			width: 150px;
 			height: 20px;
+			left: 50%;
 		}
 	}
 
