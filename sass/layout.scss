@@ -126,25 +126,7 @@ a, a:hover{
 	
 }
 
-.hvr-grow-shadow {
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	-webkit-transition-property: box-shadow, transform;
-	transition-property: box-shadow, transform;
-}
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-	box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-}
+
 
 .divider{
 	background-color: $primary-color;
@@ -159,16 +141,17 @@ a, a:hover{
 		font-size: 120px;
 		text-transform: uppercase;
 	}
-	.hero-img{
-		padding: 240px 0 0px 0;
-		margin-left: -20px;
-		z-index: 2;
-		
-	    -webkit-animation: fadein 1.5s;
-	    -moz-animation: fadein 1.5s;
-	    -ms-animation: fadein 1.5s;
-	    -o-animation: fadein 1.5s;
-	    animation: fadein 1.5s;
+	.hero-container{
+		position: absolute;
+		.hero-img{
+			padding: 200px 0 0px 0;
+			margin-left: -20px;
+		    -webkit-animation: fadein 1.5s;
+		    -moz-animation: fadein 1.5s;
+		    -ms-animation: fadein 1.5s;
+		    -o-animation: fadein 1.5s;
+		    animation: fadein 1.5s;
+		}		
 	}
 	.name-section{
 		padding: 300px 0 50px 0; 
@@ -417,6 +400,25 @@ a, a:hover{
 	.container {
 	    width: 970px;
 	}
+	.hvr-grow-shadow {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+	box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
 }
 
 
