@@ -238,16 +238,6 @@ a, a:hover{
 
 	.project-1{
 
-		.divider{
-			bottom: 0;
-			margin: 0 0 -100px 100px;
-			opacity: 1;
-		    -webkit-transform: rotate(-45deg);
-		    -moz-transform: rotate(-45deg);
-		    -ms-transform: rotate(-45deg);
-		    -o-transform: rotate(-45deg);
-		    transform: rotate(-45deg);
-		}
 		.project-img{
 			background: url(../img/poiesis-1.png);
 		}	
@@ -257,78 +247,24 @@ a, a:hover{
 		.project-img{
 			background: url(../img/mg-1.png);
 		}	
-		.zigzag{
-			right: 0;
-			margin-top: 450px;
-			opacity: .5;
-			width: 120px;
-			
-		}
-		.divider{
-			margin-top: 250px;
-			margin-left: 180px;
-			width: 40px;
-		}
+
 	}
 
 	.project-3{
 		.project-img{
 			background: url(../img/shift-1.jpg);
 		}	
-		.square{
-			border: 20px $primary-color solid;
-			width: 200px;
-			height: 200px;
-			bottom: 0;
-			margin: 0 0 -60px 50px;
-			opacity: 1; 
-
-		}
 	}
 
 	.project-4{
 		.project-img{
 			background: url(../img/tt-1.jpg);
 		}
-		.zigzag{
-			width: 80px;
-			padding-top: 80px;
-		}
-		.divider{
-			margin-top: 120px;
-			opacity: .5;
-			background-color: $body-color;
-			width: 70px;
-			height: 10px;
-		}
-		.square{
-			background: $primary-color;
-			width: 40px;
-			height: 200px;
-			right: 50px;
-			opacity: 1;
-			margin-top: -150px;
-		}
 	}
 
 	.project-5{
 		.project-img{
 			background: url(../img/fh-1.jpg);
-		}
-		.divider{
-			width: 300px;
-			height: 15px;
-		    -webkit-transform: rotate(-45deg);
-		    -moz-transform: rotate(-45deg);
-		    -ms-transform: rotate(-45deg);
-		    -o-transform: rotate(-45deg);
-		    transform: rotate(-45deg);
-		}
-		.divider-2{
-			margin: 400px 0 0 0;
-			width: 150px;
-			height: 20px;
-			left: 50%;
 		}
 	}
 

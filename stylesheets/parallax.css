@@ -46,9 +46,9 @@
 	#bg3-4 {
 		position: absolute;
 		top: 2700px;
-		left: 800px;
-		width: 100px;
-		height: 10px;
+		left: 100px;
+		width: 300px;
+		height: 15px;
 		
 
 		}
@@ -63,12 +63,10 @@
 	}
 	#bg2-1 {
 		position: absolute;
-		top: 1050px;
-		left: 280px;
-		width: 60px;
-		height: 10px;
-		opacity: .1;
-		background-color: #202344;
+		top: 1250px;
+		left: 860px;
+		width: 80px;
+		opacity: .5;
 		}
 	#bg2-2 {
 		position: absolute;
@@ -88,12 +86,9 @@
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 1480px;
-		left: 200px;
-		border-radius: 100%;
-		opacity: .1;
-		width: 200px;
-		height: 200px;
+		top: 1400px;
+		left: 400px;
+		
 		}
 	#bg2-5 {
 		position: absolute;
@@ -116,7 +111,7 @@
 		}
 	#bg1-2 {
 		position: absolute;
-		top: 550px;
+		top: 950px;
 		left: 800px;
 		}
 	#bg1-3 {

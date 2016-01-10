@@ -240,107 +240,35 @@ a, a:hover {
   opacity: 1;
 }
 /* line 241, ../sass/layout.scss */
-.work .project-1 .divider {
-  bottom: 0;
-  margin: 0 0 -100px 100px;
-  opacity: 1;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-/* line 251, ../sass/layout.scss */
 .work .project-1 .project-img {
   background: url(../img/poiesis-1.png);
 }
-/* line 257, ../sass/layout.scss */
+/* line 247, ../sass/layout.scss */
 .work .project-2 .project-img {
   background: url(../img/mg-1.png);
 }
-/* line 260, ../sass/layout.scss */
-.work .project-2 .zigzag {
-  right: 0;
-  margin-top: 450px;
-  opacity: .5;
-  width: 120px;
-}
-/* line 267, ../sass/layout.scss */
-.work .project-2 .divider {
-  margin-top: 250px;
-  margin-left: 180px;
-  width: 40px;
-}
-/* line 275, ../sass/layout.scss */
+/* line 254, ../sass/layout.scss */
 .work .project-3 .project-img {
   background: url(../img/shift-1.jpg);
 }
-/* line 278, ../sass/layout.scss */
-.work .project-3 .square {
-  border: 20px #FF6483 solid;
-  width: 200px;
-  height: 200px;
-  bottom: 0;
-  margin: 0 0 -60px 50px;
-  opacity: 1;
-}
-/* line 290, ../sass/layout.scss */
+/* line 260, ../sass/layout.scss */
 .work .project-4 .project-img {
   background: url(../img/tt-1.jpg);
 }
-/* line 293, ../sass/layout.scss */
-.work .project-4 .zigzag {
-  width: 80px;
-  padding-top: 80px;
-}
-/* line 297, ../sass/layout.scss */
-.work .project-4 .divider {
-  margin-top: 120px;
-  opacity: .5;
-  background-color: #202344;
-  width: 70px;
-  height: 10px;
-}
-/* line 304, ../sass/layout.scss */
-.work .project-4 .square {
-  background: #FF6483;
-  width: 40px;
-  height: 200px;
-  right: 50px;
-  opacity: 1;
-  margin-top: -150px;
-}
-/* line 315, ../sass/layout.scss */
+/* line 266, ../sass/layout.scss */
 .work .project-5 .project-img {
   background: url(../img/fh-1.jpg);
 }
-/* line 318, ../sass/layout.scss */
-.work .project-5 .divider {
-  width: 300px;
-  height: 15px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-/* line 327, ../sass/layout.scss */
-.work .project-5 .divider-2 {
-  margin: 400px 0 0 0;
-  width: 150px;
-  height: 20px;
-  left: 50%;
-}
-/* line 335, ../sass/layout.scss */
+/* line 271, ../sass/layout.scss */
 .work .project {
   margin-bottom: 300px;
   padding: 0;
 }
-/* line 338, ../sass/layout.scss */
+/* line 274, ../sass/layout.scss */
 .work .project .shape {
   position: absolute;
 }
-/* line 341, ../sass/layout.scss */
+/* line 277, ../sass/layout.scss */
 .work .project .project-img {
   height: 400px;
   background-size: cover;
@@ -356,7 +284,7 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 358, ../sass/layout.scss */
+/* line 294, ../sass/layout.scss */
 .work .project .project-img:hover {
   opacity: 1;
   /*			-webkit-filter: grayscale(0);
@@ -368,18 +296,18 @@ a, a:hover {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 371, ../sass/layout.scss */
+/* line 307, ../sass/layout.scss */
 .work .project .project-info {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
   z-index: 2;
 }
-/* line 376, ../sass/layout.scss */
+/* line 312, ../sass/layout.scss */
 .work .project .project-info a:hover {
   text-decoration: none;
 }
-/* line 379, ../sass/layout.scss */
+/* line 315, ../sass/layout.scss */
 .work .project .project-info a:hover h1 {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
@@ -387,7 +315,7 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 388, ../sass/layout.scss */
+/* line 324, ../sass/layout.scss */
 .work .project .project-info a h1 {
   font-size: 32px;
   font-weight: 600;
@@ -398,7 +326,7 @@ a, a:hover {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 399, ../sass/layout.scss */
+/* line 335, ../sass/layout.scss */
 .work .project .project-info p {
   font-size: 15px;
   opacity: .4;
@@ -406,22 +334,22 @@ a, a:hover {
   margin-top: 0;
   letter-spacing: 2px;
 }
-/* line 409, ../sass/layout.scss */
+/* line 345, ../sass/layout.scss */
 .work .project-left .project-info {
   right: 0;
   text-align: right;
 }
 
-/* line 416, ../sass/layout.scss */
+/* line 352, ../sass/layout.scss */
 .more-info {
   margin-bottom: 300px;
 }
-/* line 418, ../sass/layout.scss */
+/* line 354, ../sass/layout.scss */
 .more-info a {
   font-weight: 600;
   opacity: 1;
 }
-/* line 422, ../sass/layout.scss */
+/* line 358, ../sass/layout.scss */
 .more-info h1 {
   font-size: 28px;
   font-weight: 400;
@@ -431,24 +359,24 @@ a, a:hover {
 }
 
 @media (min-width: 768px) {
-  /* line 433, ../sass/layout.scss */
+  /* line 369, ../sass/layout.scss */
   .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 439, ../sass/layout.scss */
+  /* line 375, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1170px) {
-  /* line 445, ../sass/layout.scss */
+  /* line 381, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 
-  /* line 448, ../sass/layout.scss */
+  /* line 384, ../sass/layout.scss */
   .hvr-grow-shadow {
     display: inline-block;
     vertical-align: middle;
@@ -464,7 +392,7 @@ a, a:hover {
     transition-property: box-shadow, transform;
   }
 
-  /* line 462, ../sass/layout.scss */
+  /* line 398, ../sass/layout.scss */
   .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
     box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.05);
