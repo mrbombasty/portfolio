@@ -1,176 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='textcss'>
-  <title>Sebastian Petravic</title>
-  <!-- Bootstrap core CSS -->
-  <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="stylesheets/layout.css" rel="stylesheet" type="text/css">
-   <link href="stylesheets/animate.min.css" rel="stylesheet" type="text/css">
-  
-  
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assetsjs/ie8-responsive-file-warning.js"></script><![endif]-->
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='textcss'>
+    <title>Sebastian Petravic</title>
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/layout.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/parallax.css" rel="stylesheet" type="text/css">
 
-  ga('create', 'UA-61953192-1', 'auto');
-  ga('send', 'pageview');
+    <script src="js/modernizr.custom.37797.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+    <script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+    <script src="js/parallax.js"></script>
 
-  </script>
-</head>
-<body>
-  <div class="nav-container">
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/"><img srcset="img/logo_small.png 2x"></a>
-        </div>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assetsjs/ie8-responsive-file-warning.js"></script><![endif]-->
+    
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    ga('create', 'UA-61953192-1', 'auto');
+    ga('send', 'pageview');
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#work">Work</a></li>
-            <!-- <li><a href="/about">About</a></li> -->
-            <li><a href="/contact">Contact</a></li>
-            <!-- <li><a href="/contact">CV</a></li> -->
-
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </nav>
-
-    <nav class="navbar navbar-default navbar-hidden">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/"><img srcset="img/logo_small.png 2x"></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#work">Work</a></li>
-            <!-- <li><a href="/about">About</a></li> -->
-            <li><a href="mailto:sebastianpetravic@gmail.com">Contact</a></li>
-            <!-- <li><a href="/contact">CV</a></li> -->
-
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </nav>
-  </div>
-
-  <section class="intro" id="intro">
-      <!-- <div class="hero-container col-md-12">
+    </script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav class="navbar navbar-default">
         <div class="container">
-          <img class="hero-img col-md-10 col-xs-12" src="img/hero.png">
-        </div>
-      </div> -->
-    <div class="container">
-      <div class="name-section col-md-12 col-xs-12">
-        <h1>Sebastian Petravic</h1>
-        <h2>UI / UX DESIGNER</h2>
-        <div class="divider"></div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img srcset="img/logo_small.png 2x"></a>
+          </div>
 
-      </div>
-    </div>
-  </section>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-  <section class="work" id="work">
-    <div class="container">
-      <h1 class="work-header">work</h1>
-      <div class="project col-md-12 col-xs-12 project-1 project-left ">
-        <div class="shape square "></div>
-        <a href="http://poiesis.tech/"><div class="col-md-9 col-xs-12 project-img hvr-grow-shadow">
-        </div></a>
-        <div class="project-info">
-          <a href="http://poiesis.tech/"><h1>Poiesis</h1></a>
-          <p>WEB DESIGN | BRANDING | HTML / CSS</p>
-        </div>
-        <div class="shape divider"></div>
-      </div>
-      <div class="project col-md-12 col-xs-12 project-2">
-        <div class="project-info">
-          <a href="http://mumsgarage.com/"><h1>Mum's Garage</h1></a>
-          <p>WEB DESIGN | BRANDING | HTML / CSS</p>
-        </div>
-        <img class="shape zigzag" srcset="img/zigzag.png 2x">
-        <div class="shape divider"></div>
-        <a href="http://mumsgarage.com/"><div class="col-md-offset-3 col-md-9 col-xs-12 project-img poiesis hvr-grow-shadow"></div></a>
-      </div>
-      <div class="project col-md-12 col-xs-12 project-3 project-left">
-        <div class="shape square"></div>
-        <a href="https://shiftpayments.com/"><div class="col-md-9 col-xs-12 project-img hvr-grow-shadow">
-        </div></a>
-        <div class="project-info">
-          <a href="https://shiftpayments.com/"><h1>Shift Payments</h1></a>
-          <p>WEB DESIGN | HTML / CSS</p>
-        </div>
-      </div>
-      <div class="project col-md-12 col-xs-12 project-4">
-        <div class="project-info">
-          <a href="http://gettimetravel.com/"><h1>Time Travel</h1></a>
-          <p>APP DESIGN | WEB DESIGN | BRANDING | HTML / CSS</p>
-        </div>
-        <div class="shape square"></div>
-        <div class="shape divider"></div>
-        <a href="http://gettimetravel.com/"><div class="col-md-offset-3 col-md-9 col-xs-12 project-img poiesis hvr-grow-shadow"></div></a>
-      </div>
-      <div class="project col-md-12 col-xs-12 project-5 project-left">
-        <div class="shape divider"></div>
-        <div class="shape divider divider-2"></div>
-        <a href="http://filmhunt.co/"><div class="col-md-9 col-xs-12 project-img hvr-grow-shadow">
-        </div></a>
-        <div class="project-info">
-          <a href="http://filmhunt.co/"><h1>Film Hunt</h1></a>
-          <p>WEB DESIGN | WEB APP DESIGN | BRANDING | HTML / CSS</p>
-        </div>
-      </div>
-    </div>
-  </section>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#work">Work</a></li>
+              <!-- <li><a href="/about">About</a></li> -->
+              <li><a href="/contact">Contact</a></li>
+              <!-- <li><a href="/contact">CV</a></li> -->
 
-  <section class="more-info">
-    <div class="container">
-      <h1>I'm currently available for freelance work, <a href="mailto:sebastianpetravic@gmail.com">get in touch</a>.<br>
-      See more of my work on my <a href="https://dribbble.com/bombasty">dribbble</a>.<br></h1>
-      <!-- Want to <a href="/about">get to know me</a> a bit better?</h1> -->
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-default navbar-hidden">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img srcset="img/logo_small.png 2x"></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#work">Work</a></li>
+              <!-- <li><a href="/about">About</a></li> -->
+              <li><a href="mailto:sebastianpetravic@gmail.com">Contact</a></li>
+              <!-- <li><a href="/contact">CV</a></li> -->
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </nav>
     </div>
-  </section>
- 
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/wow.min.js"></script>
-        <script>
-        new WOW().init();
-      </script>
-</body>
+
+    <div id="wrapper">
+
+      <section class="intro" id="intro">
+          <!-- <div class="hero-container col-md-12">
+            <div class="container">
+              <img class="hero-img col-md-10 col-xs-12" src="img/hero.png">
+            </div>
+          </div> -->
+        <div class="container">
+          <div class="name-section col-md-12 col-xs-12">
+            <h1>Sebastian Petravic</h1>
+            <h2>UI / UX DESIGNER</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="container">
+          <h1 class="work-header">work</h1>
+
+          <div class="project col-md-12 col-xs-12 project-1 project-left wow fadeIn" id="project-1">
+            <a href="http://poiesis.tech/"><div class="col-md-9 col-xs-12 project-img hvr-grow-shadow">
+            </div></a>
+            <div class="project-info">
+              <a href="http://poiesis.tech/"><h1>Poiesis</h1></a>
+              <p>WEB DESIGN | BRANDING | HTML / CSS</p>
+            </div>
+          </div>
+
+          <div class="project col-md-12 col-xs-12 project-2 wow fadeIn" id="project-2">
+            <div class="project-info">
+              <a href="http://mumsgarage.com/"><h1>Mum's Garage</h1></a>
+              <p>WEB DESIGN | BRANDING | HTML / CSS</p>
+            </div>
+            <a href="http://mumsgarage.com/"><div class="col-md-offset-3 col-md-9 col-xs-12 project-img poiesis hvr-grow-shadow"></div></a>
+          </div>
+
+          <div class="project col-md-12 col-xs-12 project-3 project-left wow fadeIn" id="project-3">
+            <!-- <div class="shape square"></div> -->
+            <a href="https://shiftpayments.com/"><div class="col-md-9 col-xs-12 project-img hvr-grow-shadow">
+            </div></a>
+            <div class="project-info">
+              <a href="https://shiftpayments.com/"><h1>Shift Payments</h1></a>
+              <p>WEB DESIGN | HTML / CSS</p>
+            </div>
+          </div>
+
+          <div class="project col-md-12 col-xs-12 project-4 wow fadeIn" id="project-4">
+            <div class="project-info">
+              <a href="http://gettimetravel.com/"><h1>Time Travel</h1></a>
+              <p>APP DESIGN | WEB DESIGN | BRANDING | HTML / CSS</p>
+            </div>
+            <a href="http://gettimetravel.com/"><div class="col-md-offset-3 col-md-9 col-xs-12 project-img poiesis hvr-grow-shadow"></div></a>
+          </div>
+
+          <div class="project col-md-12 col-xs-12 project-5 project-left wow fadeIn">
+            <a href="http://filmhunt.co/"><div class="col-md-9 col-xs-12 project-img hvr-grow-shadow">
+            </div></a>
+            <div class="project-info">
+              <a href="http://filmhunt.co/"><h1>Film Hunt</h1></a>
+              <p>WEB DESIGN | WEB APP DESIGN | BRANDING | HTML / CSS</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="more-info wow fadeIn">
+        <div class="container">
+          <h1>I'm currently available for freelance work, <a href="mailto:sebastianpetravic@gmail.com">get in touch</a>.<br>
+          See more of my work on my <a href="https://dribbble.com/bombasty">dribbble</a>.<br></h1>
+          <!-- Want to <a href="/about">get to know me</a> a bit better?</h1> -->
+        </div>
+      </section>
+        <!-- Parallax foreground -->
+        <div id="parallax-bg3">
+          <div id="bg3-1" class="divider"></div>
+          <div id="bg3-2" class="square-big"></div>
+          <div id="bg3-3" class="diagonal-divider "></div>
+          <div id="bg3-4" class="diagonal-divider "></div>
+          
+        </div>
+        
+        <!-- Parallax  -->
+   <div id="parallax-bg2">
+         <!-- <div id="bg2-1" class="divider"></div> -->
+          <!-- <div id="bg2-2" class="square-medium"></div> -->
+          <div id="bg2-3" class="diagonal-divider"></div>
+          <div id="bg2-4" class="vertical-divider"></div>
+          <!-- <img id="bg2-5" class="divider"/> -->
+        </div>
+        
+        <!-- Parallax  background -->
+        <div id="parallax-bg1">
+          <div id="bg1-1" class="divider"></div>
+          <img src="img/zigzag.png" id="bg1-2" class="zigzag"/>
+          <div id="bg1-3" class="divider"></div>
+        </div> 
+    </div>
+
+
+
+
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+          <script>
+          new WOW().init();
+        </script>
+  </body>
 </html>

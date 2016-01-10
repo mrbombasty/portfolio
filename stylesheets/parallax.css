@@ -1,0 +1,128 @@
+
+
+
+#wrapper {
+	position: relative;
+}
+
+/* Parallax
+*****************************************************************/
+
+/* content */
+#content {
+	z-index: 4;
+	position: relative;
+	max-width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	line-height: 1.7;
+	}
+	
+/* foreground (ballons/landscape) */
+#parallax-bg3 {
+	z-index: -1;
+	position: fixed;
+	left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	width: 940px;
+	margin-left: -470px; /* move left by half element's width */
+	}
+	/* balloon */
+	#bg3-1 {
+		position: absolute;
+		top: 410px;
+		left: 0px;
+		}
+	#bg3-2 {
+		position: absolute;
+		top: 612px;
+		left: 0px;
+		}
+	#bg3-3 {
+		position: absolute;
+		top: 1028px;
+		left: 103px;
+		}
+	#bg3-4 {
+		position: absolute;
+		top: 2700px;
+		left: 0px;
+		width: 300px;
+		height: 20px;
+		background: #202344;
+		opacity: .1;
+
+		}
+/* midground (clouds) */
+#parallax-bg2 {
+	z-index: -1;
+	position: fixed;
+	left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	width: 1200px;
+	margin-left: -600px; /* move left by half element's width */
+	}
+	#bg2-1 {
+		position: absolute;
+		top: 1050px;
+		left: 280px;
+		width: 60px;
+		height: 10px;
+		opacity: .1;
+		background-color: #202344;
+		}
+	#bg2-2 {
+		position: absolute;
+		top: -51px;
+		left: 550px;
+		}
+	#bg2-3 {
+		position: absolute;
+		top: 2243px;
+		left: 550px;
+		width: 150px;
+		height: 20px;
+		}
+	#bg2-4 {
+		position: absolute;
+		top: 1580px;
+		left: 200px;
+		width: 80px;
+		height: 15px;
+		opacity: .8;
+		}
+	#bg2-5 {
+		position: absolute;
+		top: 900px;
+		left: 890px;
+		}
+/* background (clouds) */
+#parallax-bg1 {
+	z-index: -1;
+	position: fixed;
+	left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	width: 1200px;
+	margin-left: -600px; /* move left by half element's width */
+	}
+	#bg1-1 {
+		position: absolute;
+		top: 160px;
+		left: -270px;
+		}
+	#bg1-2 {
+		position: absolute;
+		top: 550px;
+		left: 880px;
+		}
+	#bg1-3 {
+		position: absolute;
+		top: 900px;
+		left: -220px;
+		}
+	#bg1-4 {
+		position: absolute;
+		top: 1020px;
+		left: 450px;
+		}
+

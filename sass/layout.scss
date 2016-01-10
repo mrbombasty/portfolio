@@ -58,7 +58,63 @@ a, a:hover{
 	box-shadow: 0px 0px 25.6px 1.2px rgba(0, 0, 0, 0.07);
 }
 
+/*Shapes*/
+.square-big{
+	width: 350px;
+	height: 350px;
+	border: 40px $body-color solid;
+	opacity: .03;
+	margin: -80px 0 0 -140px;
+}
 
+.square-medium{
+	width: 150px;
+	height: 150px;
+	border: 20px $primary-color solid;
+	opacity: .2;
+}
+
+.diagonal-divider{
+	background-color: $primary-color;
+	width: 100px;
+	height: 8px; 
+	opacity: 1;
+	border: none;
+	margin-top: 40px;
+	-webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.vertical-divider{
+	background-color: $primary-color;
+	width: 100px;
+	height: 8px; 
+	opacity: 1;
+	border: none;
+	margin-top: 40px;
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.divider{
+	background-color: $primary-color;
+	width: 100px;
+	height: 8px; 
+	opacity: 1;
+	margin-top: 40px;
+	border: none;
+}
+
+.zigzag{
+	opacity: .2;
+	width: 100px;
+}
 
 .navbar{
 	width: 100%;
@@ -128,13 +184,7 @@ a, a:hover{
 
 
 
-.divider{
-	background-color: $primary-color;
-	width: 100px;
-	height: 8px; 
-	opacity: 1;
-	margin-top: 40px;
-}
+
 
 .intro{
 	.hero{
@@ -158,8 +208,8 @@ a, a:hover{
 		h1{
 			font-size: 40px;
 			/*text-transform: uppercase;*/
-			font-weight: 400;
-			opacity: .7;
+			font-weight: 600;
+			opacity: .8;
 			letter-spacing: 1px;
 		}
 		h2{
@@ -186,13 +236,7 @@ a, a:hover{
 	}
 
 	.project-1{
-		.square{
-			width: 350px;
-			height: 350px;
-			border: 40px $body-color solid;
-			opacity: .03;
-			margin: -80px 0 0 -140px;
-		}
+
 		.divider{
 			bottom: 0;
 			margin: 0 0 -100px 100px;
