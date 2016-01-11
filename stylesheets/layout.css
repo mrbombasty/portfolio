@@ -365,18 +365,18 @@ a, a:hover {
   }
 }
 @media (min-width: 992px) {
-  /* line 375, ../sass/layout.scss */
+  /* line 376, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1170px) {
-  /* line 381, ../sass/layout.scss */
+  /* line 382, ../sass/layout.scss */
   .container {
     width: 970px;
   }
 
-  /* line 384, ../sass/layout.scss */
+  /* line 385, ../sass/layout.scss */
   .hvr-grow-shadow {
     display: inline-block;
     vertical-align: middle;
@@ -392,10 +392,21 @@ a, a:hover {
     transition-property: box-shadow, transform;
   }
 
-  /* line 398, ../sass/layout.scss */
+  /* line 399, ../sass/layout.scss */
   .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
     box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
+  }
+}
+@media (max-width: 992px) {
+  /* line 412, ../sass/layout.scss */
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
   }
 }

@@ -372,6 +372,7 @@ a, a:hover{
 }
 
 @media (min-width: 992px){
+
 	.container {
 	    width: 970px;
 	}
@@ -408,7 +409,14 @@ a, a:hover{
 }
 
 @media (max-width: 992px){
-
+	.wow {
+	  visibility: visible !important;
+	  -webkit-animation: none !important;
+	     -moz-animation: none !important;
+	       -o-animation: none !important;
+	      -ms-animation: none !important;
+	          animation: none !important;
+	}
 }
 
 @media (max-width: 768px){
