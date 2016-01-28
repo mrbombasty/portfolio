@@ -432,6 +432,9 @@ a, a:hover{
 	.work{
 		.project{
 			margin-bottom: 100px;
+			.project-img{
+				opacity: 1;
+			}
 			.project-info{
 				display: none;
 			}

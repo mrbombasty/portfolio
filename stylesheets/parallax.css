@@ -24,8 +24,8 @@
 	position: fixed;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
-	width: 940px;
-	margin-left: -470px; /* move left by half element's width */
+	width: 1200px;
+	margin-left: -534px; /* move left by half element's width */
 	}
 	/* balloon */
 	#bg3-1 {
