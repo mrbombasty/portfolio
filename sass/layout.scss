@@ -306,6 +306,9 @@ a, a:hover{
 		}
 		.project-info{
 			top: 50%;
+			-webkit-transform:translateY(-50%);
+			-moz-transform:translateY(-50%);
+			-o-transform:translateY(-50%);
 			transform:translateY(-50%);
 			position: absolute;
 			z-index: 2;
@@ -380,7 +383,7 @@ a, a:hover{
 
 @media (min-width: 1170px){
 	.container {
-	    width: 970px;
+	    width: 1100px;
 	}
 	.hvr-grow-shadow {
 	display: inline-block;
@@ -409,6 +412,31 @@ a, a:hover{
 }
 
 @media (max-width: 992px){
+	.navbar .navbar-nav li a, .navbar .navbar-nav li a:hover{
+		text-align: right;
+	}
+
+	.navbar-default {
+		.navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+			margin-top: 28px;
+			border: none;
+			background: none;
+			.icon-bar{
+				background-color: $primary-color; 
+			}
+		}
+		.navbar-collapse{
+			border: none;
+		}
+	}
+	.work{
+		.project{
+			margin-bottom: 100px;
+			.project-info{
+				display: none;
+			}
+		}
+	}
 	.wow {
 	  visibility: visible !important;
 	  -webkit-animation: none !important;
