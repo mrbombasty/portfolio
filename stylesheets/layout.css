@@ -10,8 +10,8 @@ body {
 
 /* line 21, ../sass/layout.scss */
 h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   color: #202344;
 }
@@ -25,7 +25,7 @@ p, ol li, h3, input, textarea {
 
 /* line 34, ../sass/layout.scss */
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* line 38, ../sass/layout.scss */
@@ -138,7 +138,7 @@ a, a:hover {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 700;
   opacity: .2;
   margin: 0 auto;
   -webkit-transition: all 0.2s ease;
@@ -223,7 +223,7 @@ a, a:hover {
 .intro .name-section h2 {
   font-size: 15px;
   opacity: .4;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 0;
   letter-spacing: 2px;
 }
@@ -232,7 +232,7 @@ a, a:hover {
 .work .work-header {
   padding: 150px 0 100px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: #FF6483;
   text-transform: uppercase;
   font-style: italic;
@@ -321,7 +321,7 @@ a, a:hover {
 /* line 327, ../sass/layout.scss */
 .work .project .project-info a h1 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 2px;
   opacity: .8;
   -webkit-transition: all 0.2s ease;
@@ -333,7 +333,7 @@ a, a:hover {
 .work .project .project-info p {
   font-size: 15px;
   opacity: .4;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 0;
   letter-spacing: 2px;
 }
@@ -349,7 +349,7 @@ a, a:hover {
 }
 /* line 357, ../sass/layout.scss */
 .more-info a {
-  font-weight: 600;
+  font-weight: 700;
   opacity: 1;
 }
 /* line 361, ../sass/layout.scss */
