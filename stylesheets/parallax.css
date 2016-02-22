@@ -36,7 +36,7 @@
 	#bg3-2 {
 		position: absolute;
 		top: 612px;
-		left: 0px;
+		left: 600px;
 		}
 	#bg3-3 {
 		position: absolute;
@@ -47,7 +47,7 @@
 		position: absolute;
 		top: 2700px;
 		left: 500px;
-		width: 200px;
+		width: 150px;
 		height: 15px;
 		
 
@@ -65,7 +65,7 @@
 		position: absolute;
 		top: 1250px;
 		left: 860px;
-		width: 80px;
+		width: 100px;
 		opacity: .5;
 		}
 	#bg2-2 {
@@ -86,8 +86,11 @@
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 1400px;
-		left: 400px;
+	    top: 1400px;
+	    left: 400px;
+	    width: 300px;
+	    height: 300px;
+	    border: 30px #202344 solid;
 		
 		}
 	#bg2-5 {
@@ -111,8 +114,9 @@
 		}
 	#bg1-2 {
 		position: absolute;
-		top: 950px;
-		left: 800px;
+		top: 600px;
+		right: 80px;
+		width: 80px;
 		}
 	#bg1-3 {
 		position: absolute;
